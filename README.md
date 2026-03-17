@@ -1,16 +1,38 @@
-# food_delivery
+# 🍕 Flutter Food Delivery App
 
-A new Flutter project.
+A fully functional **food delivery e-commerce application** built with Flutter, demonstrating professional app development practices suitable for production.
 
-## Getting Started
+### 🛒 Shopping Experience
+- **Dynamic Food Menu** - Browse items by categories (Burgers, Sides, Salads, Desserts, Drinks)
+- **Customizable Items** - Select addons for each food item with real-time price calculation
+- **Shopping Cart** - Add/remove items, adjust quantities, view total price
+- **Order Summary** - Complete receipt generation with itemized pricing
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+### 🔐 User Authentication
+- **Firebase Auth** - Email/password signup and login
+- **Protected Routes** - AuthGate redirects unauthenticated users
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 📱 Modern UI/UX
+- **Clean Architecture** - Separation of models, components, and pages
+- **Custom Theming** - Light/Dark mode with ThemeProvider
+- **Responsive Design** - Works on various screen sizes
+- **Custom Widgets** - Reusable components (buttons, cards, tiles, drawers)
+- **Complex Scrolling** - SliverAppBar with NestedScrollView
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 💳 Payment Flow
+- **Credit Card UI** - Integrated flutter_credit_card package
+- **Payment Confirmation** - Dialog with order details
+- **Delivery Tracking** - Post-order screen with driver info
+
+### 🔥 Backend Integration
+- **Firebase Core** - Project configuration
+- **Cloud Firestore** - Save orders to database
+- **Real-time Updates** - Firestore integration ready
+
+### 🧩 Additional Features
+- **Delivery Address** - Editable location with dialog
+- **Order Receipt** - Formatted receipt generation
+- **Drawer Navigation** - Custom side menu with tiles
+- **Settings Page** - Theme toggle functionality
+
